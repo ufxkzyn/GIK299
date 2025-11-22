@@ -1,0 +1,14 @@
+C:\Users\buppi\source\repos\Labb2\obj\Debug\net10.0\Labb2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buppi\source\repos\Labb2\obj\Debug\net10.0\Labb2.AssemblyInfoInputs.cache
+C:\Users\buppi\source\repos\Labb2\obj\Debug\net10.0\Labb2.AssemblyInfo.cs
+C:\Users\buppi\source\repos\Labb2\obj\Debug\net10.0\Labb2.csproj.CoreCompileInputs.cache
+C:\Users\buppi\source\repos\Labb2\bin\Debug\net10.0\Labb2.exe
+C:\Users\buppi\source\repos\Labb2\bin\Debug\net10.0\Labb2.deps.json
+C:\Users\buppi\source\repos\Labb2\bin\Debug\net10.0\Labb2.runtimeconfig.json
+C:\Users\buppi\source\repos\Labb2\bin\Debug\net10.0\Labb2.dll
+C:\Users\buppi\source\repos\Labb2\bin\Debug\net10.0\Labb2.pdb
+C:\Users\buppi\source\repos\Labb2\obj\Debug\net10.0\Labb2.dll
+C:\Users\buppi\source\repos\Labb2\obj\Debug\net10.0\refint\Labb2.dll
+C:\Users\buppi\source\repos\Labb2\obj\Debug\net10.0\Labb2.pdb
+C:\Users\buppi\source\repos\Labb2\obj\Debug\net10.0\Labb2.genruntimeconfig.cache
+C:\Users\buppi\source\repos\Labb2\obj\Debug\net10.0\ref\Labb2.dll
