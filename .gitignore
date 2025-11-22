@@ -1,0 +1,12 @@
+# Byggda filer
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio / IDE-relaterade filer
+*.user
+*.suo
+*.pdb
+*.dll
+
+# Cache-mappar för lösningar
+.vs/

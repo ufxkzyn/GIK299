@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\buppi\\source\\repos\\Labb1\\Labb1.csproj",
-      "projectName": "Labb1",
-      "projectPath": "C:\\Users\\buppi\\source\\repos\\Labb1\\Labb1.csproj",
+      "projectUniqueName": "C:\\Users\\buppi\\source\\repos\\Labb0\\Labb0\\Labb0.csproj",
+      "projectName": "Labb0",
+      "projectPath": "C:\\Users\\buppi\\source\\repos\\Labb0\\Labb0\\Labb0.csproj",
       "packagesPath": "C:\\Users\\buppi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\buppi\\source\\repos\\Labb1\\obj\\",
+      "outputPath": "C:\\Users\\buppi\\source\\repos\\Labb0\\Labb0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\buppi\\AppData\\Roaming\\NuGet\\NuGet.Config",
