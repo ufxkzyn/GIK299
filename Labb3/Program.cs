@@ -1,35 +1,43 @@
-﻿namespace Labb3
+﻿using System;
+
+namespace Labb3
 {
     internal class Program
     {
-        /*public static Array Days()
-        { 
-        
-        }
-        */
-
-
-
-        public static double NextDouble(Random rnd, double min, double max) // https://stackoverflow.com/questions/22046831/random-numbers-with-decimals
+        private static double NextDouble(Random rnd, double min, double max) // https://stackoverflow.com/questions/22046831/random-numbers-with-decimals
         {
-            max = 33.2;
-            min = -24.1;
+            //max = 33.2;
+            //min = -24.1;
 
             return rnd.NextDouble() * (max - min) + min;
         }
 
+        static double[] days = new double[31]; // deklarerar days arrayen med 31 index för maj månad
 
-        
-        static void Main(string[] args)
+        private static void DagOchTemp()
         {
-            Random rnd = new Random();
-            double TempDag = NextDouble(rnd, -24.1, 33.2);
-            Console.WriteLine($"{TempDag:F2}");
+            Random rnd = new Random(); //double TempDag = NextDouble(rnd, -24.1, 33.2);
+            for (int i = 0; i < 31; i++) // här genererar vi alla dagarnas temp, days.length kommer längden på arrayen å kör tills vi uppnått sista indexen, i++ får oss å hoppa upp ett snäpp per loop.
+            {
+                double TempDag = NextDouble(rnd, -24.1, 33.2); // temperaturerna är tagna från min å max nånsin recorded i maj
+                days[i] = TempDag;
+            }
         }
-        
 
-    }   
+        public static void Main(string[] args)
+        {
+            DagOchTemp();
+            for (int i = 0; i < 31; i++)
+            {
+                Console.WriteLine("Dag " + (i + 1) + ": " + String.Format("{0:.00}", days[i]) + "°C");
+            }
+
+            Console.ReadKey();
+        }
+    }
 }
+
+
 
 
 /* 
