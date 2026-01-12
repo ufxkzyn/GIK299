@@ -1,0 +1,33 @@
+## --- Build Outputs ---
+[Bin]
+[Obj]
+bin/
+obj/
+publish/
+
+## --- Visual Studio Workspaces ---
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+## --- User-Specific Files ---
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## --- NuGet Packages ---
+*.nupkg
+# Often packages are restored on build, so we don't commit the folder
+packages/
+!packages/repository.config
+
+## --- OS Generated ---
+.DS_Store
+Thumbs.db
+
+## --- Environment/Secrets ---
+.env
+appsettings.Development.json
+usersecrets.json
